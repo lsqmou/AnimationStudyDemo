@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.lmoumou.tween.TweenAnimationActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item_main.view.*
 
@@ -42,6 +43,19 @@ class MainActivity : AppCompatActivity() {
 
         override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
             holder.itemView.mTextView.text = dataList[position]
+            holder.itemView.setOnClickListener {
+                when (position) {
+                    0 -> {
+                        TweenAnimationActivity.startThis(this@MainActivity)
+                    }
+                    1 -> {
+
+                    }
+                    2 -> {
+
+                    }
+                }
+            }
         }
 
 

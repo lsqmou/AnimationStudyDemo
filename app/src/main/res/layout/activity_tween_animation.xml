@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <Button
+            android:id="@+id/btTranslate"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:text="TranslateAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btScale"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:text="ScaleAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btRotate"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:text="RotateAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btAlpha"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:text="AlphaAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btSet"
+            android:onClick="onClick"
+            android:text="AnimationSet(组合使用)"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btActivity"
+            android:onClick="onClick"
+            android:text="Activity的切换效果"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <Button
+            android:id="@+id/btFragment"
+            android:onClick="onClick"
+            android:text="Fragment的切换效果"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btViewGroup"
+            android:onClick="onClick"
+            android:text="ViewGroup中子元素的出场效果"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

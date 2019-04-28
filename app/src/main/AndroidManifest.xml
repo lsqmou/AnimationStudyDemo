@@ -16,6 +16,31 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name="com.lmoumou.tween.TweenAnimationActivity"
+                  android:label="补间动画"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="com.lmoumou.tween.TranslateActivity"
+                  android:screenOrientation="portrait"
+                  android:label="平移动画"/>
+
+        <activity android:name="com.lmoumou.tween.ScaleAnimationActivity"
+                  android:screenOrientation="portrait"
+                  android:label="缩放动画"/>
+
+        <activity android:name="com.lmoumou.tween.RotateAnimationActivity"
+                  android:screenOrientation="portrait"
+                  android:label="旋转动画"/>
+
+        <activity android:name="com.lmoumou.tween.AlphaAnimationActivity"
+                  android:screenOrientation="portrait"
+                  android:label="透明度动画"/>
+
+        <activity android:name="com.lmoumou.tween.AnimationSetActivity"
+                  android:screenOrientation="portrait"
+                  android:label="组合使用"/>
+
     </application>
 
 </manifest>
