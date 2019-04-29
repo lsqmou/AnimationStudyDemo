@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.lmoumou.frame.FrameAnimationActivity
+import com.lmoumou.property.PropertyActivity
 import com.lmoumou.tween.TweenAnimationActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item_main.view.*
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                         FrameAnimationActivity.startThis(this@MainActivity)
                     }
                     2 -> {
-
+                        PropertyActivity.startThis(this@MainActivity)
                     }
                 }
             }
