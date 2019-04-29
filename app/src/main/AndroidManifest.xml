@@ -53,6 +53,12 @@
                   android:screenOrientation="portrait"
                   android:label="ViewGroupItem进出场效果"/>
 
+        <!--逐帧动画-->
+
+        <activity android:name="com.lmoumou.frame.FrameAnimationActivity"
+                  android:screenOrientation="portrait"
+                  android:label="逐帧动画"/>
+
     </application>
 
 </manifest>
