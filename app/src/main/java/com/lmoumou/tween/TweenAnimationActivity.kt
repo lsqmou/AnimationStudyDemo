@@ -58,10 +58,21 @@ class TweenAnimationActivity : AppCompatActivity() {
                 AnimationSetActivity.startThis(this)
             }
             R.id.btActivity -> {
+                TransitionAnimationActivcity.startThis(this)
+
+                //系统自带效果
+                //淡入，淡出
+//                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_in)
+                //左进又出
+//                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
+                //自定义淡入淡出效果
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
             }
             R.id.btFragment -> {
+                FragmentAnimationActivity.startThis(this)
             }
             R.id.btViewGroup -> {
+                ViewGroupAnimationActivity.startThis(this)
             }
         }
     }

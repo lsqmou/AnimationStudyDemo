@@ -41,6 +41,18 @@
                   android:screenOrientation="portrait"
                   android:label="组合使用"/>
 
+        <activity android:name="com.lmoumou.tween.TransitionAnimationActivcity"
+                  android:screenOrientation="portrait"
+                  android:label="Activity转场动画"/>
+
+        <activity android:name="com.lmoumou.tween.FragmentAnimationActivity"
+                  android:screenOrientation="portrait"
+                  android:label="Fragment转场动画"/>
+
+        <activity android:name="com.lmoumou.tween.ViewGroupAnimationActivity"
+                  android:screenOrientation="portrait"
+                  android:label="ViewGroupItem进出场效果"/>
+
     </application>
 
 </manifest>
